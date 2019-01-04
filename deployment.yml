@@ -1,0 +1,9 @@
+Description: My new Lambda
+FunctionName: lambda4
+
+Handler: index.handler
+
+MemorySize: 128
+Publish: true
+Role: arn:aws:iam::773141716313:role/cli-test
+Runtime: nodejs8.10
